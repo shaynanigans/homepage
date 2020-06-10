@@ -30,7 +30,7 @@ body { background: #285474; }
 
 header {
    position: relative;
-   height: 800px;
+   height: 950px;
    min-height: 500px;
    width: 100%;
    background: #285474 url(../images/header-background.jpg) no-repeat top center;
@@ -51,7 +51,7 @@ header .banner {
    display: inline-block;
    position: absolute;
    top: 33.5%;
-   left: 0 !important;
+   left: 10.5% !important;
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
@@ -59,21 +59,26 @@ header .banner {
    text-align: center;
 }
 
-header .banner-text { width: 100%; }
+header .banner-text {
+    width: 100%; }
 header .banner-text h1 {
-   font: 80px/1.1em 'opensans-bold', sans-serif;
+   font: 75px/1em 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: 2px;
    width: 90%;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px #3c5378;
+   padding-bottom: 20px;
 }
 header .banner-text h3 {
-   font: 22px/2.2em ;
+   font: 20px/2em ;
    color: #da9dd8;
    margin: 0 auto;
-   width: 80%;
+   left:20% !important;
+   width: 75%;
    text-shadow: 0px 1px 2px  #3c5378;
+   
+   letter-spacing: 1px;
    text-align: left !important;
 }
 header .banner-text h3 span,
@@ -82,10 +87,13 @@ header .banner-text h3 a {
 }
 
 header .banner-text h4 {
-   font: 16px/1.7em ;
+   font: 14px/1em ;
    color: #fff;
    margin: 0 auto;
-   width: 80%;
+   left: 15% !important;
+   width: 75%;
+   
+   letter-spacing: 0.5px;
    text-shadow: 0px 1px 2px  #3c5378;
    text-align: left !important;
 }
@@ -98,10 +106,10 @@ header .banner-text hr {
 
 /* header social links */
 header .social {
-   margin: 24px 0;
-   padding: 0;
    font-size: 30px;
    text-shadow: 0px 1px 2px  #3c5378;
+   position: absolute;
+   right: 10%;  
 }
 header .social li {
    display: inline-block;
