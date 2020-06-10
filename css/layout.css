@@ -47,6 +47,7 @@ header:before {
    vertical-align: middle;
    height: 100%;
 }
+
 header .banner {
    display: inline-block;
    position: absolute;
@@ -72,7 +73,7 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
    font: 20px/2em ;
-   color: #da9dd8;
+   color: #9f48b8;
    margin: 0 auto;
    left:20% !important;
    width: 75%;
@@ -124,14 +125,14 @@ header .scrolldown a {
    position: absolute;
    bottom: 30px;
    left: 50%;
-   margin-left: -29px;
-   color: #fff;
+   /* margin-left: -29px; */
+   /* background-color: #9f48b8; */
    display: block;
    height: 42px;
    width: 42px;
    font-size: 42px;
    line-height: 42px;
-   color: #fff;
+   color: #7ef1f8;
    border-radius: 100%;
 
    -webkit-transition: all .3s ease-in-out;
@@ -139,7 +140,9 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { 
+   color: #9f48b8; 
+}
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -201,7 +204,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #da9dd8; }
+ul#nav li.current a { color: #9f48b8; }
 
 
 /* ------------------------------------------------------------------ */
@@ -225,14 +228,16 @@ ul#nav li.current a { color: #da9dd8; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #fff;
 }
 #about .profile-pic {
-   position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
+   position: absolute;
+   width: 230px;
+   height: 215px;
+   top: 50px;
+   border-radius: 50%;
 }
+
 #about .contact-details { width: 41.66667%; }
 #about .download {
    width: 58.33333%;
@@ -241,11 +246,12 @@ ul#nav li.current a { color: #da9dd8; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #444;
+   background: #9f48b8;
+   color: #fff;
 }
 #about .download .button:hover {
-   background: #fff;
-   color: #2B2B2B;
+   background: #7ef1f8;
+   color: #fff;
 }
 #about .download .button i {
    margin-right: 15px;
@@ -327,7 +333,7 @@ ul#nav li.current a { color: #da9dd8; }
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #285474;
+   color: #9f48b8;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -487,9 +493,8 @@ ul#nav li.current a { color: #da9dd8; }
 	-moz-transition: opacity 0.3s ease-in-out;
 	-o-transition: opacity 0.3s ease-in-out;
 	transition: opacity 0.3s ease-in-out;
-
-   background: url(../images/overlay-bg.png) repeat;
 }
+
 .portfolio-item .item-wrap .link-icon {
    display: block;
    color: #fff;
@@ -669,7 +674,6 @@ call-to-action .button {
 
 #testimonials {
    /* TODO: Create new graphic */
-   /* background: #285474 url(../images/testimonials-bg.jpg) no-repeat center center */
    background: #285474;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
@@ -826,8 +830,8 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #7ef1f8; }
-#contact a:hover, #contact a:focus { color: #fff; }
+#contact a, #contact a:visited  { color: #fff; }
+#contact a:hover, #contact a:focus { color: #7ef1f8; }
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -958,14 +962,14 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #303030;
+   color: #fff;
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
-footer a, footer a:visited { color: #7ef1f8; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a, footer a:visited { color: #fff; }
+footer a:hover, footer a:focus { color: #7ef1f8; }
 
 /* copyright */
 footer .copyright {
@@ -1020,17 +1024,19 @@ footer .social-links li:first-child { margin-left: 0; }
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: #525252;
-
+   background-color: #7ef1f8; 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
    -o-transition: all 0.2s ease-in-out;
    -ms-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out;
 
-   color: #fff;
+   color: #285474;
    font-size: 21px;
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #7ef1f8; }
+#go-top a:hover {    
+   background-color: #9f48b8;
+   color: #285474;
+}
