@@ -3,7 +3,7 @@
     "name":"Shay Brennan-Kelly",
     "pronouns": ["he","him"],
     "occupation":"Senior Software Engineer",
-    "description":"Interests include cybersecurity, diversity and inclusion and generally using my skills to help others",
+    "description":"Interests include blockchain, cybersecurity, diversity and inclusion and generally using my skills to help others",
     "image":"profiler.jpg",
     "bio":["Currently working towards CompTIA Security+ and CompTIA Cloud+ certifications in my spare time.","Over the last 5 years I've worked on enterprise software with Typescript, JavaScript, Java, Python, React and Node. In this time I have worked directly with clients onsite, on exploratory co-creation projects and POCs as well as on product teams.",
            "Having started my career in a project management team and then gravitated to engineering, I have experience in areas such as planning, business and process analysis, development, code reviews, testing and supporting live systems. The domains I've worked across include security, risk management, financial systems, blockchain solutions, project management and government systems. ",
@@ -40,7 +40,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Below I've ranked some of my most recent skills, with some of them measured on LinkedIn and PluralSight skills tests. I however have many more tricks up my sleeve.",
     "education":[
       {
         "school":"TU Dublin - Blanchardstown",
