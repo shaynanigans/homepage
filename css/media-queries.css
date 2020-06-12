@@ -1,9 +1,5 @@
 /* ==================================================================
 
-*   Ceevee Media Queries
-*   url: styleshout.com
-*   03-18-2014
-
 /* ================================================================== */
 
 
@@ -27,14 +23,27 @@
 
     /* header styles
    ------------------------------------------------------------------ */
-   header .banner { padding-bottom: 12px; }
+   header .banner { 
+      padding-bottom: 12px; 
+      width: 90%;
+      }
    header .banner-text h1 {
-      font: 78px/1.1em 'opensans-bold', sans-serif;
-      letter-spacing: -1px;      
+      font: 55px/1.1em 'opensans-bold', sans-serif;
+      letter-spacing: -1px;  
+      bottom: 15%;   
+      padding-top: 15px; 
    }
    header .banner-text h3 {
-      font: 17px/1.9em 'librebaskerville-regular', serif;
-      width: 80%;
+      font: 30px/1.9em 'opensans-regular', serif;
+      line-height: 40px;
+      letter-spacing: 1px;
+      padding-top: 15px;
+   }
+   header .banner-text h4 {
+      font: 20px/1.9em 'opensans-regular', serif;
+      /* width: 80%; */
+      letter-spacing: 1.5px;
+
    }
    header .banner-text hr {
       width: 65%;
@@ -349,18 +358,23 @@
 
    /* header styles
    -------------------------------------------------------------------- */
-   header .banner { padding-top: 24px; }
+   header .banner { padding-top: 24px; max-width: 85%;}
    header .banner-text h1 {
-      font: 40px/1.1em 'opensans-bold', sans-serif;      
+      font: 32px/1.1em 'opensans-bold', sans-serif;      
       margin: 0 auto 24px auto;
    }
    header .banner-text h3 {
-      font: 14px/1.9em 'librebaskerville-regular', sans-serif;
+      font: 20px/1.9em 'opensans-regular', sans-serif;
       width: 90%;
    }
   
+   header .banner-text h4 {
+      font: 14px/1.9em 'opensans-regular', sans-serif;
+      width: 90%;
+   }
+
    /* header social links */
-   header .social { font-size: 20px;}
+   header .social { top: 80%; font-size: 20px;}
    header .social li { margin: 0 6px; }
 
    /* footer
@@ -372,8 +386,141 @@
 
 }
 
+/* mobile very narrow
+  -------------------------------------------------------------------------- */
 
+  @media only screen and (max-width: 450px) {
 
+   /* mobile navigation
+   -------------------------------------------------------------------- */
+   #nav-wrap ul#nav { width: auto; float: none; }
+
+   /* header styles
+   -------------------------------------------------------------------- */
+   header .banner { 
+      max-width: 90%;
+      top:22%;
+   }
+   header .banner-text h1 {
+      font: 30px/1.2em 'opensans-bold', sans-serif;      
+      margin: 0 auto 24px auto;
+      width: 85%;
+      text-align: left;
+   }
+   header .banner-text h3 {
+      font: 18px/1.9em 'opensans-regular', sans-serif;
+      width: 85%;
+      line-height: 22px/2.2em;
+   }
+  
+   header .banner-text h4 {
+      padding-top: 5%;
+      font: 14px/1.9em 'opensans-regular', sans-serif;
+      width: 85%;
+      line-height: 18px/2em;
+   }
+
+   /* header social links */
+   header .social { top: 95%; font-size: 25px;}
+   header .social li { margin: 0 6px; }
+
+   /* footer
+   ------------------------------------------------------------------------ */
+
+   /* social links */
+   footer .social-links { font-size: 20px; }
+   footer .social-links li { margin-left: 14px; }   
+
+}
+
+/* mobile very narrow
+  -------------------------------------------------------------------------- */
+
+  @media only screen and (max-width: 400px) {
+
+   /* mobile navigation
+   -------------------------------------------------------------------- */
+   #nav-wrap ul#nav { width: auto; float: none; }
+
+   /* header styles
+   -------------------------------------------------------------------- */
+   header .banner { 
+      padding-top: 30px; 
+      max-width: 95%;
+   }
+   header .banner-text h1 {
+      font: 28px/1.1em 'opensans-bold', sans-serif;      
+      margin: 0 auto 24px auto;
+   }
+   header .banner-text h3 {
+      font: 18px/1.9em 'opensans-regular', sans-serif;
+      width: 90%;
+      
+      line-height: 20px/2em;
+   }
+  
+   header .banner-text h4 {
+      font: 14px/1.9em 'opensans-regular', sans-serif;
+      width: 90%;
+      line-height: 18px/2em;
+   }
+
+   /* header social links */
+   header .social { top: 90%; font-size: 25px;}
+   header .social li { margin: 0 6px; }
+
+   /* footer
+   ------------------------------------------------------------------------ */
+
+   /* social links */
+   footer .social-links { font-size: 20px; }
+   footer .social-links li { margin-left: 14px; }   
+
+}
+
+/* mobile very narrow
+  -------------------------------------------------------------------------- */
+
+  @media only screen and (max-width: 320px) {
+
+   /* mobile navigation
+   -------------------------------------------------------------------- */
+   #nav-wrap ul#nav { width: auto; float: none; }
+
+   /* header styles
+   -------------------------------------------------------------------- */
+   header .banner { 
+      top: 90px;
+      max-width: 95%;
+   }
+   header .banner-text h1 {
+      font: 24px/1.1em 'opensans-bold', sans-serif;      
+      margin: 0 auto 20px auto;
+   }
+   header .banner-text h3 {
+      font: 18px/1.9em 'opensans-regular', sans-serif;
+      width: 90%;
+      line-height: 20px/2em;
+   }
+  
+   header .banner-text h4 {
+      font: 14px/1.9em 'opensans-regular', sans-serif;
+      width: 90%;
+      line-height: 18px/2em;
+   }
+
+   /* header social links */
+   header .social { top: 90%; font-size: 25px;}
+   header .social li { margin: 0 6px; }
+
+   /* footer
+   ------------------------------------------------------------------------ */
+
+   /* social links */
+   footer .social-links { font-size: 20px; }
+   footer .social-links li { margin-left: 14px; }   
+
+}
 
 
 
