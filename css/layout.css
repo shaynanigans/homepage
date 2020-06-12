@@ -272,7 +272,7 @@ ul#nav li.current a { color: #9f48b8; }
 }
 
 #resume a, #resume a:visited  { color: #7ef1f8; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#resume a:hover, #resume a:focus { color: #272727; }
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -297,7 +297,7 @@ ul#nav li.current a { color: #9f48b8; }
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: rgb(90, 98, 105);
    margin-bottom: 18px;
    margin-top: 9px;
 }
