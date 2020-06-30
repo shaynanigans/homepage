@@ -446,10 +446,11 @@ ul#nav li.current a { color: #9f48b8; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #fff;
+   background: #285474;
    padding-top: 90px;
    padding-bottom: 60px;
 }
+
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
@@ -460,9 +461,15 @@ ul#nav li.current a { color: #9f48b8; }
 }
 
 /* Portfolio Content */
+
+#portfolio .project-icon {
+   width: 250px;
+   height: 180px;
+   border-radius: 5%;
+}
+
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
-   background: #fff;
    overflow: hidden;
    position: relative;
 
@@ -609,6 +616,48 @@ ul#nav li.current a { color: #9f48b8; }
 /* content fadeout */
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
    opacity: 0;
+}
+
+/* ------------------------------------------------------------------ */
+/* e. Skills Section
+/* ------------------------------------------------------------------ */
+
+#skills {
+   /* TODO: change this colour */
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#skills a, #skills a:visited  { color: #7ef1f8; }
+#skills a:hover, #skills a:focus { color: #272727; }
+
+#skills h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#skills h1 span {
+   border-bottom: 3px solid #7ef1f8;
+   padding-bottom: 6px;
+}
+#skills h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#skills .header-col { padding-top: 9px; }
+#skills .main-col { padding-right: 10%; }
+
+#skills .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: rgb(90, 98, 105);
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#skills .info span {
+   margin-right: 5px;
+   margin-left: 5px;
 }
 
 /* ------------------------------------------------------------------ */
