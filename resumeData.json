@@ -5,7 +5,7 @@
     "occupation":"Senior Software Engineer",
     "description":"Interests include blockchain, cybersecurity, diversity and inclusion and generally using my skills to help others",
     "image":"profiler.jpg",
-    "bio":["Over the last 5 years I've worked on enterprise software with Java, Typescript, JavaScript, Python, React and Node. In this time I have worked directly with clients onsite, on exploratory co-creation projects and POCs as well as on product teams.",
+    "bio":["Over the last 6 years I've worked on enterprise software with Java, Typescript, JavaScript, Python, React and Node. In this time I have worked directly with clients onsite, on exploratory co-creation projects and POCs as well as on product teams.",
            "Having started my career in a project management team and then gravitated to engineering, I have experience in areas such as planning, business and process analysis, development, code reviews, testing and supporting live systems. The domains I've worked across include security, risk management, financial systems, blockchain solutions, project management and government systems. ",
            "Studying part-time towards a MSc in Applied Cybersecurity (Level 9). Previous qualifications include a Higher Diploma in Financial Technology (Level 8) and BSc in Computer Science Software Engineering (Level 8). Now that college is finished until September, I'm working towards AWS Developer Associate certification in my spare time."],
     "contactmessage":"I'm currently on the lookout for a Python or Typescript/JavaScript backend role, feel free to connect if you've something that'd suit.",
@@ -47,16 +47,16 @@
         "degree":"Masters Applied Cybersecurity",
         "graduated":"Coming soon..",
         "grade": "Pending",
-        "description":"Currently studying part-time (evenings) towards a MSc in Applied Cybersecurity. I just finished my 1st semester and am eagerly awaiting my results",
-        "skills":["Business Continuity Management","Disaster Recovery","Incident Response"," Cybercrime Malware","Static and Dynamic Analysis","Threat Hunting"]
+        "description":"Currently studying part-time (evenings) towards a MSc in Applied Cybersecurity. I am currently completing my Masters Thesis, where I will be contributing to the research on smart contract security, vulnerabilities and associated tooling, with a focus on Solidity and Ethereum.",
+        "skills":["Business Continuity Management","Cryptography","Disaster Recovery","Incident Response"," Cybercrime Malware","Smart Contract Security", "Static and Dynamic Analysis","Threat Hunting"]
       },
       {
         "school":"National College of Ireland",
         "degree":"Higher Diploma in Financial Technology",
         "graduated":"November 2018",
         "grade":"1st Class Honours",
-        "description":"Completed a night time conversation course in FinTech. My final project was a stock price analysis, modeling and prediction tool written in Python",
-        "skills":["Blockchain Technology","Cryptography","Cybersecurity","Data Governance","Digital Forensics and Auditing","Data Analytics, Statistics and Data Modelling","Economics","Machine Learning","Research Skills"," Smart Contracts"]
+        "description":"Completed a night time conversation course in Financial Technology. The scope of this course included blockchain technology, auditing, digital forensics, cryptography and statistics. My final project was a stock price analysis, modeling and prediction tool written in Python",
+        "skills":["Blockchain Technology","Cryptography","Cybersecurity","Data Governance","Digital Forensics and Auditing","Data Analytics, Statistics and Data Modelling","Economics","Machine Learning","Research Skills","Smart Contracts"]
       },
       {
         "school":"Maynooth University",
@@ -68,6 +68,20 @@
       }
     ],
     "work":[
+      {
+        "company":"Travizory",
+        "title":"Cybersecurity and Privacy Engineering Manager",
+        "years":"June 2021 - Present",
+        "description":"Ensuring the secure development and operations of Travizory products and solutions, in accordance with compliance requirements. Responsible for ensuring that systems are secure and customer data is afforded the highest level of protection and privacy. This role has a broad scope, from liaising with business and product owners on policy and security controls, implementing security awareness training, investigating incidents, and embedding technical security into our code and products.",
+        "skills":["AWS", "Compliance", "Confluence", "Jira", "Kali Linux","SOC2","Technical Writing","Tugboat Logic"]
+      },
+      {
+        "company":"Travizory",
+        "title":"Senior Software Engineer",
+        "years":"September 2020 - June 2021",
+        "description":"n my role as senior software engineer I worked on next generation eVISA, travel authorization and border crossing systems. The scope of this work included planning, requirements analysis, development, testing and documenting systems. Projects included Travizory's API/PNR and Visitor Management Platform products along with shared components within the Travizory tech stack.",
+        "skills":["AWS","Bitbucket", "Confluence", "Git","Java","JavaScript", "Jira", "SQL"]
+      },
       {
         "company":"Hubspot",
         "title":"Software Engineer",
@@ -99,6 +113,10 @@
     ],
     "skills":[
       {
+        "name":"AWS",
+        "level":"65%"
+        },
+      {
         "name":"Git",
         "level":"60%"
       },
@@ -112,28 +130,22 @@
       },
       {
         "name":"Java",
-        "level":"75%"
+        "level":"80%"
       },
       {
-        "name":"ReactJs",
+        "name":"SQL",
         "level":"60%"
-      },
-      {
-        "name":"Angular",
-        "level":"50%"
-      },
-      {
-        "name":"MongoDB",
-        "level":"70%"
-      },
-      {
-        "name":"MySQL",
-        "level":"65%"
       }
     ]
   },
   "portfolio":{
     "projects": [
+      {
+        "title":"API/PNR",
+        "category":"Work",
+        "image":"travizory.jpg",
+        "description":"Contributed to the development of Travizory's Travel API/PNR Platform"
+      },
       {
         "title":"Sales Directory V2",
         "category":"Work",
