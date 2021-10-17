@@ -2,13 +2,13 @@
   "main": {
     "name":"Shay Brennan-Kelly",
     "pronouns": ["he","him"],
-    "occupation":"Senior Software Engineer",
+    "occupation":"Cybersecurity and Privacy Engineer",
     "description":"Interests include blockchain, cybersecurity, diversity and inclusion and generally using my skills to help others",
     "image":"profiler.jpg",
     "bio":["Over the last 6 years I've worked on enterprise software with Java, Typescript, JavaScript, Python, React and Node. In this time I have worked directly with clients onsite, on exploratory co-creation projects and POCs as well as on product teams.",
            "Having started my career in a project management team and then gravitated to engineering, I have experience in areas such as planning, business and process analysis, development, code reviews, testing and supporting live systems. The domains I've worked across include security, risk management, financial systems, blockchain solutions, project management and government systems. ",
-           "Studying part-time towards a MSc in Applied Cybersecurity (Level 9). Previous qualifications include a Higher Diploma in Financial Technology (Level 8) and BSc in Computer Science Software Engineering (Level 8). Now that college is finished until September, I'm working towards AWS Developer Associate certification in my spare time."],
-    "contactmessage":"I'm currently on the lookout for a Python or Typescript/JavaScript backend role, feel free to connect if you've something that'd suit.",
+           "Studying part-time towards a MSc in Applied Cybersecurity (Level 9). Previous certifications and qualifications include AWS Certified - Associate Developer (October 2020), a Higher Diploma in Financial Technology (Level 8) and BSc in Computer Science Software Engineering (Level 8). Currently I'm working on my thesis for my masters, due to be completed in January 2022."],
+    "contactmessage":"I'm currently on the lookout for a security engineering focussed role, feel free to connect if you've something that'd suit.",
     "email": "s.brennankelly@gmail.com",
     "address":{
       "city":"Dublin",
@@ -29,7 +29,7 @@
       },
       {
         "name":"github",
-        "url":"http://github.com/shay_nanigans",
+        "url":"http://github.com/shaynanigans",
         "className":"fa fa-github"
       },
       {
