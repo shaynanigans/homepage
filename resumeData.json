@@ -3,7 +3,7 @@
     "name":"Shay Brennan-Kelly",
     "pronouns": ["he","him"],
     "occupation":"Cybersecurity and Privacy Engineer",
-    "description":"Interests include blockchain, cybersecurity, diversity and inclusion and generally using my skills to help others",
+    "description":"Interests include cybersecurity, blockchain, diversity and inclusion and generally using my skills to help others",
     "image":"profiler.jpg",
     "bio":["Over the last 6 years I've worked on enterprise software with Java, Typescript, JavaScript, Python, React and Node. In this time I have worked directly with clients onsite, on exploratory co-creation projects and POCs as well as on product teams.",
            "Having started my career in a project management team and then gravitated to engineering, I have experience in areas such as planning, business and process analysis, development, code reviews, testing and supporting live systems. The domains I've worked across include security, risk management, financial systems, blockchain solutions, project management and government systems. ",
@@ -48,7 +48,7 @@
         "graduated":"Coming soon..",
         "grade": "Pending",
         "description":"Currently studying part-time (evenings) towards a MSc in Applied Cybersecurity. I am currently completing my Masters Thesis, where I will be contributing to the research on smart contract security, vulnerabilities and associated tooling, with a focus on Solidity and Ethereum.",
-        "skills":["Business Continuity Management","Cryptography","Disaster Recovery","Incident Response"," Cybercrime Malware","Smart Contract Security", "Static and Dynamic Analysis","Threat Hunting"]
+        "skills":["Business Continuity Management","Cryptography","Disaster Recovery","Incident Response"," Malware Analysis","Smart Contract Security", "Static and Dynamic Analysis","Threat Hunting"]
       },
       {
         "school":"National College of Ireland",
@@ -72,29 +72,36 @@
         "company":"Travizory",
         "title":"Cybersecurity and Privacy Engineering Manager",
         "years":"June 2021 - Present",
-        "description":"Ensuring the secure development and operations of Travizory products and solutions, in accordance with compliance requirements. Responsible for ensuring that systems are secure and customer data is afforded the highest level of protection and privacy. This role has a broad scope, from liaising with business and product owners on policy and security controls, implementing security awareness training, investigating incidents, and embedding technical security into our code and products.",
-        "skills":["AWS", "Compliance", "Confluence", "Jira", "Kali Linux","SOC2","Technical Writing","Tugboat Logic"]
+        "description":"Ensuring the secure development and operations of Travizory products and solutions, in accordance with compliance requirements. Responsible for ensuring that systems are secure and customer data is afforded the highest level of protection and privacy. This role has a broad scope, from liaising with business and product owners on policy and security controls, implementing security awareness training, pentesting, vulnerability management, sinvestigating incidents, and embedding technical security into our code and products.",
+        "skills":["AWS", "Compliance", "Confluence","Cryptography", "Incident Management", "OWASP", "Jira", "Kali Linux","Kubernetes","Python","Security-first Architecture","SOC2","Technical Writing","Tugboat Logic"]
       },
       {
         "company":"Travizory",
         "title":"Senior Software Engineer",
         "years":"September 2020 - June 2021",
-        "description":"n my role as senior software engineer I worked on next generation eVISA, travel authorization and border crossing systems. The scope of this work included planning, requirements analysis, development, testing and documenting systems. Projects included Travizory's API/PNR and Visitor Management Platform products along with shared components within the Travizory tech stack.",
-        "skills":["AWS","Bitbucket", "Confluence", "Git","Java","JavaScript", "Jira", "SQL"]
+        "description":"In my role as senior software engineer I worked on next generation eVISA, travel authorization and border crossing systems. The scope of this work included planning, requirements analysis, development, testing and documenting systems. Projects included Travizory's API/PNR and Visitor Management Platform products along with shared components within the Travizory tech stack.",
+        "skills":["AWS","Bitbucket", "Confluence", "Git","Java","JavaScript", "Jira", "SQL", "Systems Design"]
+      },
+      {
+        "company":"Shaynanigans.ie",
+        "title":"Technical Consultant - Software Engineering",
+        "years":"June 2020 - September 2020",
+        "description":"In the time between my roles at HubSpot and Travizory, I took some time to build my skills in AWS, Java and Python by completing freelance projects for a variety of different clients.",
+        "skills":["Git", "Java", "JavaScript", "AWS", "MySQL", "SQL", "SQLAlchemy", "Python"]
       },
       {
         "company":"Hubspot",
         "title":"Software Engineer",
-        "years":"July 2019 - Present",
+        "years":"July 2019 - June 2020",
         "description":"Aligned to Product and Engineering, I develop and enhance internal systems essential to HubSpot's Sales Org. The scope of this role includes planning and task estimation, grooming tickets, development, testing and documenting systems. A core aspect of this role involves the reviewing of development carried out by my team and quality-checking deliverables to ensure they match the specification.",
-        "skills":["Git","Guava", "Guice", "Jasmine","Java","JUnit","JavaScript","React","Selenium", "SQL", "MySQL"]
+        "skills":["Git","Guava", "Guice", "Jasmine","Java","JUnit","JavaScript","React","Selenium", "SQL", "MySQL", "Systems Design"]
       },
       {
         "company":"Consensys",
         "title":"Software Engineer",
         "years":"August 2018 - June 2019",
         "description":"Contributed to the development of POCs and production level development of distributed Blockchain based systems. The projects involved areas such as smart contracts, zero-trust systems, financial services and identity. The scope of this work included planning, requirements analysis, development, testing and documenting systems. A key part of my role was quality checking the work of and supporting the development of other engineers on my team.", 
-        "skills":["Git", "JavaScript","Jest","React","Python","Web3", "Typescript", "Docker", "MongoDB"]
+        "skills":["Git", "JavaScript","Jest","Kubernetes","React","Python","Web3", "Typescript", "Docker", "MongoDB", "Systems Design"]
       },
       {
         "company":"Accenture",

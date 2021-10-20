@@ -23,8 +23,10 @@
 /* ------------------------------------------------------------------ */
 
 /* body { background: #285474; } */
-body { background: #290374; }
-
+/* body { background: #290374; }
+/* pink = da9dd8 */
+ */
+body {background: #1F094E;}
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
@@ -34,7 +36,7 @@ header {
    height: 950px;
    min-height: 500px;
    width: 100%;
-   background: #290374 url(../images/header-background.jpg) no-repeat top center;
+   background: #1F094E url(../images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -69,23 +71,23 @@ header .banner-text h1 {
    letter-spacing: 2px;
    width: 90%;
    margin: 0 auto 18px auto;
-   text-shadow: 0px 1px 3px #3c5378;
+   text-shadow: 0px 1px 3px #847C94;
    padding-bottom: 20px;
 }
 header .banner-text h3 {
    font: 20px/2em ;
-   color: #9f48b8;
+   color: #7C64A4;
    margin: 0 auto;
    left:20% !important;
    width: 75%;
-   text-shadow: 0px 1px 2px  #3c5378;
+   text-shadow: 0px 1px 2px  #847C94;
    
    letter-spacing: 1px;
    text-align: left !important;
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-   color: #da9dd8;
+   color: #3D9DA1;
 }
 
 header .banner-text h4 {
@@ -96,7 +98,7 @@ header .banner-text h4 {
    width: 75%;
    
    letter-spacing: 0.5px;
-   text-shadow: 0px 1px 2px  #3c5378;
+   text-shadow: 0px 1px 2px  #847C94;
    text-align: left !important;
 }
 header .banner-text hr {
@@ -109,7 +111,7 @@ header .banner-text hr {
 /* header social links */
 header .social {
    font-size: 30px;
-   text-shadow: 0px 1px 2px  #3c5378;
+   text-shadow: 0px 1px 2px  #847C94;
    position: absolute;
    right: 10%;  
 }
@@ -127,7 +129,7 @@ header .scrolldown a {
    bottom: 30px;
    left: 50%;
    /* margin-left: -29px; */
-   /* background-color: #9f48b8; */
+   /* background-color: #7C64A4; */
    display: block;
    height: 42px;
    width: 42px;
@@ -142,7 +144,7 @@ header .scrolldown a {
    transition: all .3s ease-in-out;
 }
 header .scrolldown a:hover { 
-   color: #9f48b8; 
+   color: #7C64A4; 
 }
 
 /* primary navigation
@@ -205,7 +207,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #9f48b8; }
+ul#nav li.current a { color: #7C64A4; }
 
 
 /* ------------------------------------------------------------------ */
@@ -213,7 +215,7 @@ ul#nav li.current a { color: #9f48b8; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #290374;
+   background: #1F094E;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -247,7 +249,7 @@ ul#nav li.current a { color: #9f48b8; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #9f48b8;
+   background: #7C64A4;
    color: #fff;
 }
 #about .download .button:hover {
@@ -294,7 +296,7 @@ ul#nav li.current a { color: #9f48b8; }
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 1px solid #290374;
+   border-bottom: 1px solid #1F094E;
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -334,7 +336,7 @@ ul#nav li.current a { color: #9f48b8; }
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #9f48b8;
+   color: #7C64A4;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -348,7 +350,7 @@ ul#nav li.current a { color: #9f48b8; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #290374;
+  	background: #1F094E;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -447,7 +449,7 @@ ul#nav li.current a { color: #9f48b8; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #290374;
+   background: #1F094E;
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -584,7 +586,7 @@ ul#nav li.current a { color: #9f48b8; }
 }
 .popup-modal .link-box {
    padding: 18px 36px;
-   background: #290374;
+   background: #1F094E;
    text-align: left;
 }
 .popup-modal .link-box a {
@@ -666,7 +668,7 @@ ul#nav li.current a { color: #9f48b8; }
 /* ------------------------------------------------------------------ */
 
 #call-to-action {
-   background: #290374;
+   background: #1F094E;
    padding-top: 66px;
    padding-bottom: 48px;
 }
@@ -711,7 +713,7 @@ call-to-action .button {
 #call-to-action .button:hover,
 #call-to-action .button:active {
    background: #FFFFFF;
-   color: #290374;
+   color: #1F094E;
 }
 #call-to-action p span {
 	font-family: 'opensans-semibold', sans-serif;
@@ -724,7 +726,7 @@ call-to-action .button {
 
 #testimonials {
    /* TODO: Create new graphic */
-   background: #290374;
+   background: #1F094E;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -762,7 +764,7 @@ call-to-action .button {
    margin: 0 0px 30px 0px;
    padding-left: 0;
    position: relative;
-   text-shadow: 0px 1px 3px #290374;
+   text-shadow: 0px 1px 3px #1F094E;
 }
 #testimonials blockquote:before { content: none; }
 #testimonials blockquote p {
@@ -873,7 +875,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #290374;
+   background: #1F094E;
    padding-top: 96px;
    padding-bottom: 102px;
    color: #EBEEEE;
@@ -947,7 +949,7 @@ call-to-action .button {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#fff;
-   background: #290374;
+   background: #1F094E;
 	border: none;
    cursor: pointer;
    height: auto;
@@ -965,7 +967,7 @@ call-to-action .button {
 }
 #message-warning, #message-success {
    display: none;
-	background: #290374;
+	background: #1F094E;
 	padding: 24px 24px;
 	margin-bottom: 36px;
    width: 65%;
@@ -1056,7 +1058,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #da9dd8;
+    color: #3D9DA1;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
@@ -1081,12 +1083,12 @@ footer .social-links li:first-child { margin-left: 0; }
    -ms-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out;
 
-   color: #290374;
+   color: #1F094E;
    font-size: 21px;
    line-height: 60px;
  	border-radius: 100%;
 }
 #go-top a:hover {    
-   background-color: #9f48b8;
-   color: #290374;
+   background-color: #7C64A4;
+   color: #1F094E;
 }
