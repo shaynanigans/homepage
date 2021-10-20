@@ -22,7 +22,8 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #285474; }
+/* body { background: #285474; } */
+body { background: #290374; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -33,7 +34,7 @@ header {
    height: 950px;
    min-height: 500px;
    width: 100%;
-   background: #285474 url(../images/header-background.jpg) no-repeat top center;
+   background: #290374 url(../images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -212,7 +213,7 @@ ul#nav li.current a { color: #9f48b8; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #285474;
+   background: #290374;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -293,7 +294,7 @@ ul#nav li.current a { color: #9f48b8; }
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 1px solid #285474;
+   border-bottom: 1px solid #290374;
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -347,7 +348,7 @@ ul#nav li.current a { color: #9f48b8; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #285474;
+  	background: #290374;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -446,7 +447,7 @@ ul#nav li.current a { color: #9f48b8; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #285474;
+   background: #290374;
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -583,7 +584,7 @@ ul#nav li.current a { color: #9f48b8; }
 }
 .popup-modal .link-box {
    padding: 18px 36px;
-   background: #285474;
+   background: #290374;
    text-align: left;
 }
 .popup-modal .link-box a {
@@ -665,7 +666,7 @@ ul#nav li.current a { color: #9f48b8; }
 /* ------------------------------------------------------------------ */
 
 #call-to-action {
-   background: #285474;
+   background: #290374;
    padding-top: 66px;
    padding-bottom: 48px;
 }
@@ -710,7 +711,7 @@ call-to-action .button {
 #call-to-action .button:hover,
 #call-to-action .button:active {
    background: #FFFFFF;
-   color: #285474;
+   color: #290374;
 }
 #call-to-action p span {
 	font-family: 'opensans-semibold', sans-serif;
@@ -723,7 +724,7 @@ call-to-action .button {
 
 #testimonials {
    /* TODO: Create new graphic */
-   background: #285474;
+   background: #290374;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -761,7 +762,7 @@ call-to-action .button {
    margin: 0 0px 30px 0px;
    padding-left: 0;
    position: relative;
-   text-shadow: 0px 1px 3px #285474;
+   text-shadow: 0px 1px 3px #290374;
 }
 #testimonials blockquote:before { content: none; }
 #testimonials blockquote p {
@@ -872,7 +873,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #285474;
+   background: #290374;
    padding-top: 96px;
    padding-bottom: 102px;
    color: #EBEEEE;
@@ -946,7 +947,7 @@ call-to-action .button {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#fff;
-   background: #285474;
+   background: #290374;
 	border: none;
    cursor: pointer;
    height: auto;
@@ -964,7 +965,7 @@ call-to-action .button {
 }
 #message-warning, #message-success {
    display: none;
-	background: #285474;
+	background: #290374;
 	padding: 24px 24px;
 	margin-bottom: 36px;
    width: 65%;
@@ -1080,12 +1081,12 @@ footer .social-links li:first-child { margin-left: 0; }
    -ms-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out;
 
-   color: #285474;
+   color: #290374;
    font-size: 21px;
    line-height: 60px;
  	border-radius: 100%;
 }
 #go-top a:hover {    
    background-color: #9f48b8;
-   color: #285474;
+   color: #290374;
 }
