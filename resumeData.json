@@ -2,19 +2,19 @@
   "main": {
     "name":"Shay Brennan-Kelly",
     "pronouns": ["he","him"],
-    "occupation":"Cybersecurity and Privacy Engineer",
-    "description":"Interests include cybersecurity, blockchain, diversity and inclusion and generally using my skills to help others",
+    "occupation":"Cloud Security Engineer",
+    "description":"Interests include cybersecurity, software development, diversity and inclusion and generally using my skills to help others",
     "image":"profiler.jpg",
-    "bio":["Over the last 6 years I've worked on enterprise software with Java, Typescript, JavaScript, Python, React and Node. In this time I have worked directly with clients onsite, on exploratory co-creation projects and POCs as well as on product teams.",
+    "bio":["Over the last 7 years I've worked on enterprise software with Java, Python and Node (Typescript, JavaScript). In this time I have worked directly with clients onsite, on exploratory co-creation projects and POCs as well as on product teams.",
            "Having started my career in a project management team and then gravitated to engineering, I have experience in areas such as planning, business and process analysis, development, code reviews, testing and supporting live systems. The domains I've worked across include security, risk management, financial systems, blockchain solutions, project management and government systems. ",
-           "Studying part-time towards a MSc in Applied Cybersecurity (Level 9). Previous certifications and qualifications include AWS Certified - Associate Developer (October 2020), a Higher Diploma in Financial Technology (Level 8) and BSc in Computer Science Software Engineering (Level 8). Currently I'm working on my thesis for my masters, due to be completed in January 2022."],
-    "contactmessage":"I'm currently on the lookout for a security engineering focussed role, feel free to connect if you've something that'd suit.",
+           "Recently completed a Postgraduate Diploma in Applied Cybersecurity NFQ Level 9 (awaiting grade and parchment). Previous certifications and qualifications include ICCTF Certified Cyber Risk Officer - CCRO (2021), AWS Certified - Associate Developer (2020), a Higher Diploma in Financial Technology - NFQ Level 8 (2018) and BSc in Computer Science Software Engineering - NFQ Level 8 (2015)."],
+    "contactmessage":"I'm currently on the lookout for a security engineering focused role, feel free to connect if you've something that'd suit.",
     "email": "s.brennankelly@gmail.com",
     "address":{
       "city":"Dublin",
       "state":"Ireland"
     },
-    "website": "http://www.shay-beekay.com",
+    "website": "https://shaynanigans.github.io/",
     "resumedownload":"https://www.linkedin.com/in/shaybk/",
     "social":[
       {
@@ -44,10 +44,10 @@
     "education":[
       {
         "school":"TU Dublin - Blanchardstown",
-        "degree":"Masters Applied Cybersecurity",
+        "degree":"Postgraduate Diploma in Applied Cybersecurity",
         "graduated":"Coming soon..",
         "grade": "Pending",
-        "description":"Currently studying part-time (evenings) towards a MSc in Applied Cybersecurity. I am currently completing my Masters Thesis, where I will be contributing to the research on smart contract security, vulnerabilities and associated tooling, with a focus on Solidity and Ethereum.",
+        "description":"Recently completed a part-time (evenings) P.Dip in Applied Cybersecurity.",
         "skills":["Business Continuity Management","Cryptography","Disaster Recovery","Incident Response"," Malware Analysis","Smart Contract Security", "Static and Dynamic Analysis","Threat Hunting"]
       },
       {
@@ -121,11 +121,11 @@
     "skills":[
       {
         "name":"AWS",
-        "level":"65%"
+        "level":"70%"
         },
       {
         "name":"Git",
-        "level":"60%"
+        "level":"65%"
       },
       {
         "name":"Python",
@@ -137,7 +137,7 @@
       },
       {
         "name":"Java",
-        "level":"80%"
+        "level":"85%"
       },
       {
         "name":"SQL",
